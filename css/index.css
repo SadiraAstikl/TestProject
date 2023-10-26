@@ -344,3 +344,11 @@ transition: transform .8;
 #closeModal:hover {
   background-color: #2879C9; 
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+}
