@@ -124,6 +124,7 @@ font-size: 16px;
   background-color: #2879C9; 
 }
 
+
 .title {
 color: 
 #08123A;
@@ -237,7 +238,7 @@ line-height: 58px;
 
 .modalBox {
   width: 557px;
-  height: 519px;
+  height: 580px;
   z-index: 1;
 padding-left: 80px;
 background-color: white;
@@ -329,4 +330,17 @@ transition: transform .8;
 
 .something {
   margin-bottom: 10px;
+}
+
+#closeModal {
+  margin-top: 15px;
+  margin-left: 500px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#closeModal:hover {
+  background-color: #2879C9; 
 }
