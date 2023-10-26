@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; 
+  min-width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #F5F9FF;
+}
+
+.content-box {
+  box-sizing: content-box;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  margin-left: 134px;
+  margin-top: 32px;
+  width: 100%; 
+}
+
+
+.header2 {
+  margin-top: 32px;
+  display: flex;
+}
+
+.logo {
+  width: 180px;
+  height: 38px;
+}
+
+.headtext {
+  margin-top: 10px;
+  justify-content: center;
+  color:#5F6B77;
+}
+
+.textarea {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.firstbox {
+  width: 100%;
+  height: 100%;
+  background-color: #F5F9FF;
+}
+
+.secondbox {
+  background-color: #506CCF;
+  width: 50%;
+  height: 100%;
+}
+
+#text1 {
+  width: 123px;
+  height: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+#text2 {
+  width: 56px;
+  height: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+#text3 {
+width: 61px;
+height: 20px;
+margin-right: 20px;
+font-size: 16px;
+}
+
+#text4 {
+  width: 42px;
+  height: 20px;
+  margin-right: 22px;
+  font-size: 16px;
+}
+
+#text5 {
+  width: 64px;
+  height: 20px;
+  margin-right: 22px;
+  font-size: 16px;
+}
+
+#text6 {
+  width: 38px;
+  height: 20px;
+  font-size: 16px;
+}
+
+#text7 {
+  margin-left: 15px;
+  color: white;
+  margin-right: 130px;
+  color: #8B9FCC;
+  font-size: 16px;
+}
+
+#phone {
+  margin-left: 10px;
+  color: white;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.buttonContact {
+  background-color: #49A1F1;
+  width: 127px;
+  height: 46px;
+  border-radius: 10px;
+  left: 1273px;
+  border: #49A1F1;
+}
+
+.title {
+color: 
+#08123A;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+}
+
+.titleBox {
+  width: 571px;
+  height: 430px;
+  margin-top: 200px;
+  margin-left: 134px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F9FF;
+}
+
+.about {
+  color: #5F6B77;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 450px;
+  height: 120px;
+  padding-bottom: 30px;
+}
+
+.avatar {
+  width: 47px;
+  height: 47px;
+  margin-left: 480px;
+  margin-bottom: 60px;
+}
+
+.avatar2 {
+ margin-top: 150px;
+ margin-left: -200px;
+}
+
+.ellipse4 {
+  margin-top: 650px;
+  margin-left: 120px;
+}
+
+.button2 {
+  background-color: #506CCF;
+  width: 170px;
+  height: 54px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: -130px;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  margin-left: 146px;
+  width: 54px;
+  height: 54px;
+  padding-top: 30px;
+}
+
+.thirdBox {
+  width: 928px;
+  height: 669px;
+  margin-left: -650px;
+  margin-top: 136px;
+  display: flex;
+  flex-direction: column;
+}
+
+.diagramm1 {
+  width: 446px;
+  height: 388px;
+  margin-left: -90px;
+}
+
+.diagramm2 {
+  width: 230px;
+  height: 269px;
+  margin-left: -28px;
+  margin-top: -50px;
+}
+
+.diagramm3 {
+  margin-top: 140px;
+  margin-left: -400px;
+}
+
+.modal {
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9998;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modalBox {
+  width: 557px;
+  height: 519px;
+  z-index: 1;
+padding-left: 80px;
+background-color: white;
+border-radius: 10px;
+transform: scale(0);
+transition: transform .8;
+}
+
+.modal.open .modalBox {
+  transform: scale(1);
+}
+
+.contactTitle {
+  color: #08123A;
+  font-size: 20px;
+  line-height: 22px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.placeIcon {
+ width: 24px;
+ margin-left: 20px;
+}
+
+.office, .timing {
+  color: #5F6B77;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.address, .monday, .weekend {
+  font-weight: 600;
+  size: 16px;
+  line-height: 20px;
+}
+
+.map {
+  color: #506CCF;
+  text-decoration: underline;
+  font-weight: 600;
+  size: 16px;
+  line-height: 20px;  
+}
+
+.call, .write, .socialWeb {
+  color: #5F6B77;
+  font-weight: 600;
+  size: 16px;
+  line-height: 20px;  
+}
+
+.number, .email {
+  color: #08123A;
+  font-weight: 600;
+  size: 16px;
+  line-height: 20px; 
+}
+
+.callOrder {
+  height: 54px;
+  width: 188px;
+  border-radius: 10px;
+  border: 2px solid #5F6B77;
+  color: #5F6B77;
+  background-color: white;
+  margin-left: 80px;
+}
+
+.clock {
+  margin-top: 20px;
+  width: 22px;
+  height: 22px;
+}
+
+.monday {
+  margin-top: 10px;
+}
+
+.socialWeb {
+  margin-top: 40px;
+}
+
+.telegram, .vk{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.something {
+  margin-bottom: 10px;
+}
